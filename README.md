@@ -29,4 +29,103 @@ Some indications about the different directories and files:
 - run `hugo server` from the root of the repository to run the site locally in memory. Do it until you are satisfied by the result.
 - then, run `hugo` from the root of the repository to produce the static site pages in `public/`.
 - finally, commit and push changes to the Github repo: `git add * && git commit -m "your commit message" && git push origin main`
+
+## Test locally, produce final HTML files and push to website
+
+- run `hugo server` from the root of the repository to run the site locally in memory. Do it until you are satisfied by the result.
+- then, run `hugo` from the root of the repository to produce the static site pages in `public/`.
+- finally, commit and push changes to the Github repo: `git add * && git commit -m "your commit message" && git push origin main`
+
+## Prepare webserver environment
+
+'''
+# cd /etc/apache2/sites-available/
+# cp 2025.passthesalt.conf 2026.passthesalt.conf
+# dig 2026.pass-the-salt.org
+# vim 2026.passthesalt.conf
+suppression des lignes de redirect
+# mkdir /var/www/2026-passthesalt/
+# chown www-data:www-data /var/www/2026-passthesalt/
+# a2ensite 2026.passthesalt.conf 
+# systemctl reload apache2
+# service apache2 status
+# certbot --apache
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+Which names would you like to activate HTTPS for?
+We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: pass-the-salt.org
+2: 2018.pass-the-salt.org
+3: 2019.pass-the-salt.org
+4: 2020.pass-the-salt.org
+5: 2021.pass-the-salt.org
+6: 2022.pass-the-salt.org
+7: 2023.pass-the-salt.org
+8: 2024.pass-the-salt.org
+9: 2025.pass-the-salt.org
+10: 2026.pass-the-salt.org
+11: archives.pass-the-salt.org
+12: cfp.pass-the-salt.org
+13: lists.pass-the-salt.org
+14: live.pass-the-salt.org
+15: team.pass-the-salt.org
+16: wiki.pass-the-salt.org
+17: www.pass-the-salt.org
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel): 10
+Requesting a certificate for 2026.pass-the-salt.org
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/2026.pass-the-salt.org/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/2026.pass-the-salt.org/privkey.pem
+This certificate expires on 2026-03-09.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for 2026.pass-the-salt.org to /etc/apache2/sites-available/2026.passthesalt-le-ssl.conf
+Congratulations! You have successfully enabled HTTPS on https://2026.pass-the-salt.org
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# cd /var/www
+# git clone https://github.com/pass-the-salt/2026.git
+Cloning into '2026'...
+remote: Enumerating objects: 282, done.
+remote: Counting objects: 100% (282/282), done.
+remote: Compressing objects: 100% (217/217), done.
+remote: Total 282 (delta 41), reused 282 (delta 41), pack-reused 0 (from 0)
+Receiving objects: 100% (282/282), 22.95 MiB | 8.85 MiB/s, done.
+Resolving deltas: 100% (41/41), done.
+Updating files: 100% (376/376), done.
+# chown www-data:www-data 2026
+# git pull
+fatal: detected dubious ownership in repository at '/var/www/2026'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/www/2026
+# git config --global --add safe.directory /var/www/2026
+# git pull
+Already up to date.
+# vim /etc/apache2/sites-enabled/2026.passthesalt-le-ssl.conf
+
+ajout des lignes :
+
+ScriptAlias "/cgi-bin/" "/var/www/2026/cgi-bin/"
+
+<Directory "/var/www/2026/cgi-bin/">
+    Options +ExecCGI
+    AddHandler cgi-script .cgi
+</Directory>
+
+# chown -R www-data:www-data /var/www/2026
+# service apache2 restart
+# service apache2 status
+'''
+
 - hooking: each push on the Github repo will activate a webhook (URL: `https://2024.pass-the-salt.org/cgi-bin/update.cgi`). The hook content is in the `cgi-bin/update.cgi` file. The script launched by the hook will check if updates exist on Github repo. If it is the case, it fetchs them to `/var/www/2024` directory on the server and then, rsync the content of the `public/` sub directory with the content of the website located in `/var/www/2024-passthesalt`.
