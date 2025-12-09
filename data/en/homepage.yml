@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Pass the SALT conference<br> > Lille, France<br> Université Catholique de Lille <br> > June, 30 to July 2026"
+  title: "Pass the SALT conference<br> > Lille, France<br> Université Catholique de Lille <br> > June, 30 to July, 2 2026"
   content: ""
   image: "images/logo-pts23.png"
   button:
