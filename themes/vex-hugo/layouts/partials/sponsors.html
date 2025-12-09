@@ -1,0 +1,82 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.sponsors.enable }}
+<section class="testimonials section" id="sponsors">
+  <div class="container">
+    {{ with $data.homepage.sponsors }}
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="heading">
+          <h2>{{ .title | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <h4>The list of the sponsors for the 2026 edition will be updated during the first quarter of the year. If you want to sponsor the event, please find the support document here: <a href="/files/dossier-sponsoring-FR-2026.pdf">FR version</a> | <a href="/files/sponsoring-brochure-EN-2026.pdf">EN version</a>.</h4><br><br><br>
+      </div>
+      {{ range .platinum_sponsor_item }}
+      <div class="col-lg-12 col-sm-6 mb-5 mb-lg-0 text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="testimonial-block">
+          <div class="">
+            <a href="{{ .url }}" alt="{{ .name }}">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" height="{{ .height }}" width="{{ .width }}">
+            </a>
+            <h4> &#8212; </h4>
+            <h4>{{ .designation }}</h4>
+            <br><br>
+          </div>
+        </div>
+        <br><br>
+      </div>
+      {{ end }}
+      {{ range .gold_sponsor_item }}
+      <div class="col-lg-12 col-sm-6 mb-5 mb-lg-0 text-center d-flex flex-column justify-content-center align-items-center
+      ">
+        <div class="testimonial-block">
+          <div class="">
+            <a href="{{ .url }}" alt="{{ .name }}">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" height="{{ .height }}" width="{{ .width }}">
+            </a>
+            <h4> &#8212; </h4>
+            <h4>{{ .designation }}</h4>
+            <br><br>
+          </div>
+        </div>
+        <br><br>
+      </div>
+      {{ end }}
+
+      {{ range .silver_sponsor_item }}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="testimonial-block">
+          <div class="">
+            <a href="{{ .url }}" alt="{{ .name }}">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" height="{{ .height }}" width="{{ .width }}">
+            </a>
+            <h4> &#8212; </h4>
+            <h4>{{ .designation }}</h4>
+            <br><br>
+          </div>
+        </div>
+        <br><br>
+      </div>
+      {{ end }}
+      
+      {{ range .partner_item }}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
+        <div class="testimonial-block">
+          <div class="">
+            <a href="{{ .url }}" alt="{{ .name }}">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" height="{{ .height }}" width="{{ .width }}">
+            </a>
+            <h4> &#8212; </h4>
+            <h4>{{ .designation }}</h4>
+            <br><br>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,283 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Pass the SALT conference<br> > Lille, France<br> Université Catholique de Lille <br> > June, 30 to July 2026"
+  content: ""
+  image: "images/logo-pts23.png"
+  button:
+    enable: true
+    label: ">>> PTS 2025 Videos"
+    link: "https://passthesalt.ubicast.tv/channels/#2025"
+
+############################# description ############################
+description:
+  enable: true
+  title: "A totally <span style='color:#069494;'>free, english spoken</span> conference <br>dedicated to <span style='color:#069494;'>free software & security</span>.<br> Talks & workshops delivered <span style='color:#069494;'>by experts</span>."
+  image: "images/speaker01.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "High quality talks"
+      icon: "tf-ion-ios-mic"
+      content: "2025 edition has hosted **26 talks** covering **9 Security topics** (Secure Messaging, DFIR & TI, HW & Embedded, Network etc). Talks are all delivered **by experts**."
+
+      # feature item loop
+    - title: "Quality Networking in a friendly French atmosphere"
+      icon: "tf-ion-ios-people"
+      content: "The small size of the event (100 to 300 people) allows you to have **quality exchange experiences with open-minded attendees or speakers** in a relaxed and welcoming ambiance."
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Workshops"
+      icon: "tf-ion-ios-flask"
+      content: "We provided **6 workshops** in 2025. All given **by a project developer/maintainer or an expert on the field**.<br>Come to discover and practice!"
+
+      # feature item loop
+    - title: "Previous editions"
+      icon: "tf-ion-ios-time"
+      content: "Not yet convinced? Let's give a look at [some previous speakers](https://www.pass-the-salt.org/achievements/#speakers-list) and [some collaborations](https://www.pass-the-salt.org/achievements/#contributions) born during the conference. You can also browse [last edition report](https://2022.pass-the-salt.org/annual-report/) to have a good overview of the event."
+
+############################# team ############################
+team:
+  enable: true
+  image: "images/team.jpg"
+  title: "The Team"
+  content:
+    "Pass the SALT is brought to you by a small but enthusiast and dedicated team:<br>
+    - **core team:** <a href=https://twitter.com/bloodytangerine>@bloodytangerine</a>, <a href=https://twitter.com/_cryptocorn_>@&#95;cryptocorn&#95;</a>, <a href=https://infosec.exchange/@cbrocas>@cbrocas</a>, <a href=https://twitter.com/doegox>@doegox</a>, <a href=https://twitter.com/follc>@follc</a> and <a href=https://twitter.com/moutane>@moutane</a>.<br>
+    - **on-site volunteers:** <a href=https://twitter.com/acervoise>@acervoise</a>, <a href=https://twitter.com/cdpointpoint>@cdpointpoint</a>, <a href=https://infosec.exchange/@julioloayzam>@julioloayzam</a>, <a href=https://infosec.exchange/@just_nathan>@just_nathan</a> and <a href=https://twitter.com/Sebdraven>@Sebdraven</a>.<br>
+    - **video recording:** we rely this year again on the know-how of our <a href=https://x.com/ubicast_video>Ubicast</a> friends for the recording and streaming of the talks 🙏<br>"
+
+############################# timeline ############################
+timeline:
+  enable: true
+  image: "images/speaker.jpg"
+  title: "Timeline"
+  content:
+    "<span style='color:$primary-color'><b>December 2025: website of the 2026 edition (dates, location)</b></span><br />
+    January 15, 2026: opening of the Call For Papers<br />
+    March 30, 2026: closing of the Call For Papers<br/>
+    Late April, 2026: notification to the speakers<br/>
+    Early May, 2026: publication of the program & booking site<br />
+    June, 30 to July,2 2026 : the conference"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: true
+  title: "Your Feedback"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Orange Tsaï"
+      designation: "Principal security researcher at DEVCORE, multiple times PwnieAwards and Master of Pwn winner"
+      image: "images/orange.png"
+      content: "My slides 'Hacking Jenkins' for #pts19 and #HITBAMS is out! This is my first time to go to France and Pass the SALT (@passthesaltcon ) is such a really really good and interesting conference!"
+
+    # testimonial item loop
+    - name: "Aaron Gable"
+      designation: "Let's Encrypt software development team Technical Lead "
+      image: "images/aaron.jpeg"
+      content: "PTS 2024 was fantastic and loads of fun, strongly recommend putting together a talk and attending!<br><br><br>"
+
+    # testimonial item loop
+    - name: "Peter Czanik"
+      designation: "@sngose & @SudoProject evangelist at @BalaBit (@oneidentity)"
+      image: "images/peter.jpg"
+      content: "'My favorite #infosec conference: @passthesaltcon. It has less visitors than #FOSDEM has speakers, but I learned there more than at any other events.<br><br>"
+
+    # testimonial item loop
+    - name: "Ange Albertini"
+      designation: "Corkami, CPS2Shock, PoC||GTFO, Sha1tered. Security engineer @ Google. He/him."
+      image: "images/ange.jpg"
+      content: "@passthesaltcon The conference gave me a lot of energy and inspiration. Thanks to all of you!<br><br><br><br>"
+
+############################## sponsors ##########################
+sponsors:
+  enable: true
+  title: "Sponsors"
+  platinum_sponsor_item:
+  # platinum sponsors loop
+  #  - name: "Gandi"
+  #    designation: "PLATINUM sponsor"
+  #    image: "images/sponsors/gandi.png"
+  #    content: ""
+  #    url: "https://www.gandi.net/"
+  #    height: "77"
+  #    width: "273"
+  #  - name: "Passbolt"
+  #    designation: "PLATINUM sponsor"
+  #    image: "images/sponsors/passbolt.png"
+  #    content: ""
+  #    url: "https://www.passbolt.com/"
+  #    height: "48"
+  #    width: "270"
+    - name: "Université Catholique de Lille"
+      designation: "PLATINUM partner"
+      image: "images/sponsors/UCL.png"
+      content: ""
+      url: "https://www.univ-catholille.fr/en/"
+      height: "104"
+      width: "191"
+  gold_sponsor_item:
+  # gold sponsors loop
+  #  - name: "Quarkslab"
+  #    designation: "GOLD sponsor"
+  #    image: "images/sponsors/quarkslab.svg"
+  #    content: ""
+  #    url: "https://www.quarkslab.com/"
+  #    height: "101"
+  #    width: "352"
+  # - name: "Cyberzen"
+  #   designation: "GOLD sponsor"
+  #   image: "images/sponsors/cyberzen.png"
+  #   content: ""
+  #   url: "https://www.cyberzen.com/"
+  #   height: "90"
+  #   width: "371"
+  # - name: "LEXFO"
+  #   designation: "GOLD sponsor"
+  #   image: "images/sponsors/lexfo.png"
+  #   content: ""
+  #   url: "https://www.lexfo.fr/"
+  #   height: "85"
+  #   width: "233"
+  # - name: "CEA SEC"
+  #   designation: "GOLD sponsor"
+  #   image: "images/sponsors/cea.png"
+  #   content: ""
+  #   url: "https://github.com/cea-sec"
+  #   height: "104"
+  #   width: "104"
+  silver_sponsor_item:
+  # silver sponsors loop
+  #  - name: "Synacktiv"
+  #    designation: "SILVER sponsor"
+  #    image: "images/sponsors/synacktiv.png"
+  #    content: ""
+  #    url: "https://www.synacktiv.com/"
+  #    height: "74"
+  #    width: "370"  
+  #  - name: "Randorisec"
+  #    designation: "SILVER sponsor"
+  #    image: "images/sponsors/randorisec.png"
+  #    content: ""
+  #    url: "https://www.randorisec.fr/"
+  #    height: "174"
+  #    width: "200"
+  #  - name: "Epsilon"
+  #    designation: "SILVER sponsor"
+  #    image: "images/sponsors/epsilon.png"
+  #    content: ""
+  #    url: "https://www.epsilon-sec.com/"
+  #    height: "132"
+  #    width: "320"  
+  #  - name: "Penthertz"
+  #    designation: "SILVER sponsor"
+  #    image: "images/sponsors/penthertz.png"
+  #    content: ""
+  #    url: "https://www.penthertz.com/"
+  #    height: "101"
+  #    width: "303"
+  # - name: "SEEKITSEC"
+  #   designation: "SILVER sponsor"
+  #   image: "images/sponsors/seek-it-security.png"
+  #   content: ""
+  #   url: "https://www.linkedin.com/company/seek-it-security"
+  #   height: "75"
+  #   width: "240"
+
+  partner_item:
+  # partners loop
+  # - name: "Polytech"
+  #   designation: "Hosting partner"
+  #   image: "images/sponsors/polytech.gif"
+  #   content: ""
+  #   url: "https://www.polytech-lille.fr/"
+  #   height: "74"
+  #   width: "206"
+  - name: "Pretix"
+    designation: "FLOSS Event Booking service"
+    image: "images/sponsors/pretix.svg"
+    content: ""
+    url: "https://www.pretix.eu/"
+    height: "74"
+    width: "160"
+  - name: "Pretalx"
+    designation: "FLOSS CFP solution"
+    image: "images/sponsors/pretalx.svg"
+    content: ""
+    url: "https://www.pretalx.com/"
+    height: "74"
+    width: "160" 
+  - name: "Ubicast"
+    designation: "Video capture/streaming partner"
+    image: "images/sponsors/ubicast.png"
+    content: ""
+    url: "https://www.ubicast.eu/"
+    height: "70"
+    width: "255"
+
+############################# promo ############################
+promo:
+  enable: false
+  image: "images/speaker.jpg"
+  title: "Our Goals"
+  content:
+    "The main goals of the conference are:
+    <br>- **provide open and free access to quality content** about Free Software and Security
+    <br>- **promote cooperation between hackers** coming from diverse Security and FLOSS communities
+    <br>- **enable quality exchange between speakers, attendees and organizers** through free access social moments"
+  
+############################# About Product #######################
+about_product:
+  enable: false
+  title: "Why coming to Pass the SALT"
+  items:
+    # about product item loop
+    - image: "images/showcase/badge.jpeg"
+      title: "Learn from experts."
+      content:
+        "You will have access to high quality talks and workshops delivered by experts on the field. All of this in a cool atmosphere with the right number of people to enjoy it!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/showcase/showcase-3.png"
+      title: "Lorem ipsum dolor sit amet."
+      content:
+        "test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+        quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/showcase/showcase-3.png"
+      title: "Lorem ipsum dolor sit amet."
+      content:
+        "test2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+        quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "Checkout Our All Products"
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  bg_image: "images/call-to-action.jpg"
+  title: "Get Product Updates"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Your Email Address Here"
+
