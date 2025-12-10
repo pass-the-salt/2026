@@ -124,6 +124,12 @@ Some indications about the different directories and files:
   # service apache2 status
   ```
 
-- hooking: 
-  - create a new webhook on the GUI `Settings\Webhooks` giving following payload: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`
-  - each push on the Github repo will activate a webhook (URL: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`). The hook content is in the `cgi-bin/update.cgi` file. The script launched by the hook will check if updates exist on Github repo. If it is the case, it fetchs them to `/var/www/2026` directory on the server and then, rsync the content of the `public/` sub directory with the content of the website located in `/var/www/2026-passthesalt`.
+- Github webhook: 
+  - create a new webhook on the GUI `Settings\Webhooks` of the repository giving following payload: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`
+  - each push on the Github repo will activate a webhook (URL: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`).
+  - script pointed by the webhook : `cgi-bin/update.cgi` file. 
+  - how it works:
+    - check if updates exist on Github repo. 
+    - if updates exist on the Github repo:
+      - the script fetchs them to `/var/www/2026` directory on the server 
+      - rsync the content of the `public/` sub directory with the content of the website located in `/var/www/2026-passthesalt`.
