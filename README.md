@@ -1,6 +1,6 @@
-# 2024 website
+# 2026 website
 
-All the code required to generate the website of the 2024 edition of Pass the SALT conference.
+All the code required to generate the website of the 2026 edition of Pass the SALT conference.
 
 ## Installation
 
