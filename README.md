@@ -42,9 +42,9 @@ Some indications about the different directories and files:
 
 ## Prepare webserver environment
 
-- create 2026.pass-the-salt.org` DNS record on Gandi DNS : 
+- create `2026.pass-the-salt.org` DNS record on Gandi DNS : 
   `2026 10800 IN CNAME unicorn.pass-the-salt.org.`
-- verify if the NS resolution is correct (read: returns the correct IP of the server): `dig 2026.pass-the-salt.org`
+- verify if the DNS resolution returns the correct IP of the server: `dig 2026.pass-the-salt.org`
 - create the Apache definition of the website with the listening port set to TCP/80.
   ```
   # cd /etc/apache2/sites-available/
@@ -59,7 +59,7 @@ Some indications about the different directories and files:
   # systemctl reload apache2
   # service apache2 status
   ```
-- Obtain TLS certificate:
+- Obtain the TLS certificate:
   Select the 2026 hostname on the list proposed by Certbot :
   ```
   # certbot --apache
@@ -86,7 +86,7 @@ Some indications about the different directories and files:
   Congratulations! You have successfully enabled HTTPS on https://2026.pass-the-salt.org
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   ```
-- Initialize the website with an initial clone of the source of the website:
+- Initialize the website with an initial clone of the Github source repo of the website:
   ```
   # cd /var/www
   # git clone https://github.com/pass-the-salt/2026.git
