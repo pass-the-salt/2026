@@ -58,6 +58,10 @@ Some indications about the different directories and files:
   # a2ensite 2026.passthesalt.conf 
   # systemctl reload apache2
   # service apache2 status
+  ```
+- Obtain TLS certificate:
+  Select the 2026 hostname on the list proposed by Certbot :
+  ```
   # certbot --apache
   Saving debug log to /var/log/letsencrypt/letsencrypt.log
   Which names would you like to activate HTTPS for?
@@ -81,6 +85,9 @@ Some indications about the different directories and files:
   Successfully deployed certificate for 2026.pass-the-salt.org to /etc/apache2/sites-available/2026.passthesalt-le-ssl.conf
   Congratulations! You have successfully enabled HTTPS on https://2026.pass-the-salt.org
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ```
+- Initialize the website with an initial clone of the source of the website:
+  ```
   # cd /var/www
   # git clone https://github.com/pass-the-salt/2026.git
   Cloning into '2026'...
@@ -99,6 +106,9 @@ Some indications about the different directories and files:
   # git config --global --add safe.directory /var/www/2026
   # git pull
   Already up to date.
+  ```
+- Add webhook CGI script section in the Apache config file & restart Apache:
+  ```
   # vim /etc/apache2/sites-enabled/2026.passthesalt-le-ssl.conf
 
   ajout des lignes :
