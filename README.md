@@ -12,8 +12,8 @@ or visit https://gohugo.io/installation/linux/ and take the Extended edition.
 
 - Clone previous year Github repo: `git clone https://github.com/pass-the-salt/2025.git`
 - Rename the directory `2025` to `2026`.
-- Suppress the `.git` directory
-- create on Github the `2026` repository and type following commands in `2026` directory:
+- Suppress the `.git` subdirectory in `2026` directory.
+- create on Github the `2026` repository and type following commands in `2026` directory on your server:
   ```
   git init
   git *add README.md*
@@ -24,7 +24,7 @@ or visit https://gohugo.io/installation/linux/ and take the Extended edition.
   ```
 ## Modify content
 
-Some indications about the different directories and files:
+Some instructions or indications about the different directories and files:
 - `cgi-bin/update.cgi` : change all mentions of 2025 to 2026 (notably on path and filenames)
 - `config.toml`: contains global parameters of the site (title, logo, lang, top and bottom menu content).
 - `data/en/homepage.yml`: Yaml parameters to inject into homepage through Vex theme templates.
@@ -42,10 +42,10 @@ Some indications about the different directories and files:
 
 ## Prepare webserver environment
 
-- create `2026.pass-the-salt.org` DNS record on Gandi DNS : 
+- **[DNS]** create `2026.pass-the-salt.org` DNS record on Gandi DNS : 
   `2026 10800 IN CNAME unicorn.pass-the-salt.org.`
-- verify if the DNS resolution returns the correct IP of the server: `dig 2026.pass-the-salt.org`
-- create the Apache definition of the website with the listening port set to TCP/80.
+- **[DNS]** verify if the DNS resolution returns the correct IP of the server: `dig 2026.pass-the-salt.org`
+- **[Apache]** create the Apache definition of the website with the listening port set to TCP/80.
   ```
   # cd /etc/apache2/sites-available/
   # vim 2026.passthesalt.conf
@@ -59,7 +59,7 @@ Some indications about the different directories and files:
   # systemctl reload apache2
   # service apache2 status
   ```
-- Obtain the TLS certificate:
+- **[TLS]** obtain the TLS certificate:
   Select the 2026 hostname on the list proposed by Certbot :
   ```
   # certbot --apache
@@ -86,7 +86,7 @@ Some indications about the different directories and files:
   Congratulations! You have successfully enabled HTTPS on https://2026.pass-the-salt.org
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   ```
-- Initialize the website with an initial clone of the Github source repo of the website:
+- **[SRC]** Initialize the website with an initial clone of the Github source repo of the website:
   ```
   # cd /var/www
   # git clone https://github.com/pass-the-salt/2026.git
@@ -107,7 +107,7 @@ Some indications about the different directories and files:
   # git pull
   Already up to date.
   ```
-- Add webhook CGI script section in the Apache config file & restart Apache:
+- **[Apache & Webhook]** Add webhook CGI script section in the Apache config file & restart Apache:
   ```
   # vim /etc/apache2/sites-enabled/2026.passthesalt-le-ssl.conf
 
@@ -124,7 +124,7 @@ Some indications about the different directories and files:
   # service apache2 status
   ```
 
-- Github webhook: 
+- **[Webhook]** Github webhook: 
   - create a new webhook on the GUI `Settings\Webhooks` of the repository giving following payload: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`
   - each push on the Github repo will activate a webhook (URL: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`).
   - script pointed by the webhook : `cgi-bin/update.cgi` file. 
