@@ -127,10 +127,10 @@ Some instructions or indications about the different directories and files:
 - **[Webhook]** Github webhook: 
   - **Important:** check if you have really changed any mentions to 2025 in favor of 2026 inside the `cgi-bin/update.cgi` as asked in the *"Modify content"* section.
   - **[Github]** create a new webhook on the GUI `Settings\Webhooks` of the repository giving following payload: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`
-  - each push on the Github repo will activate a webhook (URL: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`).
+  - each push on the Github repo `2026` will activate a webhook (URL: `https://2026.pass-the-salt.org/cgi-bin/update.cgi`).
   - script pointed by the webhook : `cgi-bin/update.cgi` file. 
   - how it works:
-    - check if updates exist on Github repo. 
-    - if updates exist on the Github repo:
+    - check if updates exist on Github repo `2026`. 
+    - if updates exist on the Github repo `2026`:
       - the script fetchs them to `/var/www/2026` directory on the server 
       - rsync the content of the `public/` sub directory of `/var/www/2026` directory with the content of the website located in `/var/www/2026-passthesalt`.
