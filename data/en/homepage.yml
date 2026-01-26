@@ -6,8 +6,8 @@ banner:
   image: "images/logo-pts23.png"
   button:
     enable: true
-    label: ">>> PTS 2025 Videos"
-    link: "https://passthesalt.ubicast.tv/channels/#2025"
+    label: ">>> Submit"
+    link: "https://cfp.pass-the-salt.org/pts2026/cfp"
 
 ############################# description ############################
 description:
