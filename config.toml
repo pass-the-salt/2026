@@ -157,7 +157,7 @@ logo_width = "103px"
 # Meta data
 description = "Website for the 2026 edition of the Pass the SALT Conference | Open source and cybersecurity conference for security researchers, featuring technical talks, tools, and research."
 author = "Pass the SALT"
-image = "images/logo.png"
+image = "images/logo-pts23.png"
 # currency
 # currency = "$"
 # contact form action
