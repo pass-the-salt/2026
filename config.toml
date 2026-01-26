@@ -135,9 +135,14 @@ url = "https://infosec.exchange/@passthesaltcon"
 weight = 2
 
 [[menu.footer]]
+name = "Bluesky"
+url = "https://bsky.app/profile/passthesaltcon.bsky.social"
+weight = 3
+
+[[menu.footer]]
 name = "X / Twitter"
 url = "https://twitter.com/passthesaltcon"
-weight = 3
+weight = 4
 
 # [[menu.footer]]
 # name = "Privacy Policy"
@@ -150,8 +155,9 @@ weight = 3
 logo = "images/logo.png"
 logo_width = "103px"
 # Meta data
-description = "Website of the 2026 edition of the Pass the SALT conference"
-author = "Themefisher"
+description = "Website for the 2026 edition of the Pass the SALT Conference | Open source and cybersecurity conference for security researchers, featuring technical talks, tools, and research."
+author = "Pass the SALT"
+image = "images/logo.png"
 # currency
 # currency = "$"
 # contact form action
