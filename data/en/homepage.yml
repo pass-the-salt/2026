@@ -57,8 +57,8 @@ timeline:
   title: "Timeline"
   content:
     "December 2025: website of the 2026 edition (dates, location)<br />
-    <span style='color:$primary-color'><b>January 15, 2026: opening of the Call For Papers</b></span><br />
-    March 31, 2026: closing of the Call For Papers<br/>
+    January 15, 2026: opening of the Call For Papers<br />
+    <span style='color:$primary-color'><b>March 31, 2026: closing of the Call For Papers</b></span><br/>
     Late April, 2026: notification to the speakers<br/>
     Early May, 2026: publication of the program & booking site<br />
     June, 30 to July,2 2026 : the conference"
