@@ -13,7 +13,7 @@ You will **find on this page specific information for speakers** (slides, rooms 
 
 # Speakers dinner
 
-On Tuesday July 1 evening, we will have a dinner with all the speakers who have accepted to come and the org team.<br>
+We will have a dinner with all the speakers who have accepted to come and the org team.<br>
 
 This year, it will take place on Tuesday June 30 at 20h/08:00PM at **Mama Shelter restaurant** ([97 Pl. Saint-Hubert, 59800 Lille](https://maps.app.goo.gl/hroMejR7nd2P2b6A9)) in the center of Lille between *Lille Europe* and *Lille Flandres* stations.<br> 
 
