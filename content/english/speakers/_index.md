@@ -13,12 +13,11 @@ You will **find on this page specific information for speakers** (slides, rooms 
 
 # Speakers dinner
 
-On Tuesday July 1 evening, we will have a dinner with all the speakers who have accepted to come and the org team.<br><br>
+On Tuesday July 1 evening, we will have a dinner with all the speakers who have accepted to come and the org team.<br>
 
-This year, it will take place on Tuesday July 1 at 19h30/07:30PM at the first floor of **LA LUCK restaurant in the center of Lille (1 bis rue Princesse 59800 Lille)**.<br>
-<img src="/images/first-floor.png" alt="first floor restaurant" width="90%"/> <br> 
+This year, it will take place on Tuesday June 30 at 20h/08:00PM at **Mama Shelter restaurant** ([97 Pl. Saint-Hubert, 59800 Lille](https://maps.app.goo.gl/hroMejR7nd2P2b6A9)) in the center of Lille between *Lille Europe* and *Lille Flandres* stations.<br> 
 
-The **meeting point will be in front of the Lille Flandres Station** main entrance (yellow statue) in order to go together to the restaurant **leaving at 19h00/7:00PM**. Of course, you can join us directly at the restaurant from 19h30/7:30PM. <br>
+The **meeting point will be in front of the Lille Flandres Station** main entrance (yellow statue) in order to go together to the restaurant **leaving at 19h45/7:45PM**. Of course, you can join us directly at the restaurant from 20h/08PM. <br>
 
 <img src="/images/meeting-point.jpg" alt="meeting-point" width="90%"/> <br> 
 
@@ -38,7 +37,7 @@ More expensive, with AC:<br>
 - [Okko Hotel](https://www.okkohotels.com/en/page/lille/.3097.html)<br>
 - [La Valiz Hotel](https://www.hotellavaliz.com/)<br><br>
 
-The best advice we can share is for <b>the location of the hotel</b>: <b>try to stay around the Bruxelles or Flandres stations area</b>. This way you will be near the center of Lille and also near the "Gare Lille Flandres" bus stop where you will take the bus n°5 to reach the conference location.<br><br>
+The best advice we can share is for <b>the location of the hotel</b>: <b>try to stay around the *"Lille Europe"* and *"Lille Flandres"* stations area</b>. This way you will be near the center of Lille and also near the *"Lille Flandres"* bus stop where you will take the bus n°5 to reach the conference location.<br><br>
 
 **Important:** other practical information (location, how to come etc) are available on the [dedicated practical info page](/practical/) !<br><br>
 

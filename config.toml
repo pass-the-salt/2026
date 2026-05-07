@@ -56,25 +56,25 @@ name = "About"
 url = "https://2026.pass-the-salt.org/#description"
 weight = 10
 
-[[menu.main]]
-name = "Call for Proposals"
-url = "https://cfp.pass-the-salt.org/pts2026/cfp"
-weight = 20
-
 # [[menu.main]]
-# name = "Schedule"
-# url = "https://cfp.pass-the-salt.org/pts2025/schedule/"
+# name = "Call for Proposals"
+# url = "https://cfp.pass-the-salt.org/pts2026/cfp"
 # weight = 20
 
-#[[menu.main]]
-#name = "Register"
-#url = "https://pretix.eu/passthesalt/2025/"
-#weight = 3
+[[menu.main]]
+name = "Schedule"
+url = "https://cfp.pass-the-salt.org/pts2026/schedule/"
+weight = 20
 
 [[menu.main]]
-name = "Memories"
-url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2025/photos/PhotosPassTheSALT2025-by-jlm/"
-weight = 30
+name = "Register"
+url = "https://pretix.eu/passthesalt/2026/"
+weight = 3
+
+# [[menu.main]]
+# name = "Memories"
+# url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2025/photos/PhotosPassTheSALT2025-by-jlm/"
+# weight = 30
 
 # [[menu.main]]
 # name = "Slides"

@@ -71,7 +71,7 @@ To book trains:
 <br>
 
 ## Registration
-The booking website will be online on the first days of May, 2026.
+Registration is **free** (but required) to attend the talks, workshops, pauses and social event.
 
 Before coming to the conference:
 - Be registered online 

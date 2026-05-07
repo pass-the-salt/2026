@@ -6,8 +6,8 @@ banner:
   image: "images/logo-pts23.png"
   button:
     enable: true
-    label: ">>> Submit"
-    link: "https://cfp.pass-the-salt.org/pts2026/cfp"
+    label: "Book your (free) seat!"
+    link: "https://pretix.eu/passthesalt/2026/"
 
 ############################# description ############################
 description:
