@@ -40,6 +40,17 @@ Some instructions or indications about the different directories and files:
 - then, run `hugo` from the root of the repository to produce the static site pages in `public/`.
 - finally, commit and push changes to the Github repo: `git add * && git commit -m "your commit message" && git push origin main`
 
+## Test locally and produce HTML files with Docker
+
+The current repo is targeting Hugo 0.123 from Ubuntu 20.04 and may fail on newer Hugo versions.
+You can use the provided Dockerfile to generate a proper environment.
+
+- Prepare: `./docker-build.sh`
+
+Then follow the same instructions but
+- replace `hugo server` by `./docker-hugo-server.sh`
+- replace `hugo` by `docker-hugo.sh`
+
 ## Prepare webserver environment
 
 - **[DNS]** create `2026.pass-the-salt.org` DNS record on Gandi DNS : 
@@ -111,7 +122,7 @@ Some instructions or indications about the different directories and files:
   ```
   # vim /etc/apache2/sites-enabled/2026.passthesalt-le-ssl.conf
 
-  ajout des lignes :
+  Add lines:
 
   ScriptAlias "/cgi-bin/" "/var/www/2026/cgi-bin/"
 
