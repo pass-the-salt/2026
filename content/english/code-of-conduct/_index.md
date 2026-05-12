@@ -1,5 +1,5 @@
 ---
-title: "Code of Coduct"
+title: "Code of Conduct"
 description : ""
 draft: false
 ---
