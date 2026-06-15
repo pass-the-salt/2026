@@ -112,6 +112,15 @@ sponsors:
       url: "https://www.passbolt.com/"
       height: "48"
       width: "270"
+    - name: "huawei"
+      designation: "PLATINUM sponsor"
+      image: "images/sponsors/huawei-arrow-final.png"
+      content: ""
+      url: "https://www.huawei.com/"
+      height: "99"
+      width: "224"
+  platinum_partner_item:    
+    # platinum partner loop
     - name: "Université Catholique de Lille"
       designation: "PLATINUM partner"
       image: "images/sponsors/UCL.png"
