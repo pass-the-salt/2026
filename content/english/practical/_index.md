@@ -9,7 +9,7 @@ ref: Practical
 <a href="#conference-location">Location & accessibility</a> | <a href="#coming-to-the-conference-location-from-lille-stations-area">How to come</a> | <a href="#registration"> Registration</a> | <a href="#social-event"> Social event</a> | <a href="#pauses"> Pauses </a> | <a href="#mid-day-lunchs"> Lunchs</a>
 <br><br>
 
-We are very pleased and honoured to announce that the 2026 edition of Pass the SALT conference will be hosted for another year on the **Université Catholique de Lille** campus in Lille center.
+The 2026 edition of Pass the SALT conference will be hosted for another year on the **Université Catholique de Lille** campus in Lille center.
 
 <img src="/images/jardins.jpg" alt="2026 Pass the SALT will be hosted by Université catholique de Lille" /> <br> 
 
