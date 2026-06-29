@@ -62,10 +62,10 @@ name = "Schedule"
 url = "https://cfp.pass-the-salt.org/pts2026/schedule/"
 weight = 20
 
-[[menu.main]]
-name = "Register"
-url = "https://pretix.eu/passthesalt/2026/"
-weight = 30
+# [[menu.main]]
+# name = "Register"
+# url = "https://pretix.eu/passthesalt/2026/"
+# weight = 30
 
 # [[menu.main]]
 # name = "Memories"
