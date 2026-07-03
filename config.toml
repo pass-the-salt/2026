@@ -72,15 +72,15 @@ weight = 20
 # url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2025/photos/PhotosPassTheSALT2025-by-jlm/"
 # weight = 30
 
-# [[menu.main]]
-# name = "Slides"
-# url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2025/slides/"
-# weight = 31
+[[menu.main]]
+name = "Slides"
+url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2026/slides/"
+weight = 31
 
-# [[menu.main]]
-# name = "Videos"
-# url = "https://passthesalt.ubicast.tv/channels/#2025"
-# weight = 32
+[[menu.main]]
+name = "Videos"
+url = "https://passthesalt.ubicast.tv/channels/#2026"
+weight = 32
 
 [[menu.main]]
 name = "Practical"
