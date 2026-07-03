@@ -6,8 +6,8 @@ banner:
   image: "images/logo-pts23.png"
   button:
     enable: true
-    label: "Livestream (starting Tuesday June, 30 2PM) >>>"
-    link: "https://passthesalt.ubicast.tv/lives/live-pass-the-salt-2026/"
+    label: ">>> Videos"
+    link: "https://passthesalt.ubicast.tv/channels/#2026"
 
 ############################# description ############################
 description:
