@@ -4,13 +4,13 @@ permalink: /annual-report/
 ref: report
 ---
 
-Pass the SALT is a **free access, English-spoken, 3-day conference** dedicated to Free Software and Security. It features a single track of talks with some parallel workshops.<br><br>
+This document is **the annual report for the 2026 edition** of the conference. We share all the figures, insights, and analysis about the event.
 
-This document is **our annual report for the 2026 edition** of the conference. We share all the figures, insights, and analysis about the event.
+- **Highlights:** [figures](#figures), [good points](#good-points) and [improvements](#improvements)
+- **More details:** [conferences and workshops](#conferences-and-workshops), [audience](#audience) and [sponsors](#sponsors)
+- **[Conclusion](#conclusion)**
 
 # 2026 Highlights ⚡
-
-This section is the TL;DR of this report to give you main news, facts and feedbacks from this 2026 edition.
 
 ## Figures
 - **Call for papers:** 47 proposals (2025: 49), 30 accepted (32), 2 invited talks ie 6,6% (4 ie 12,5%), acceptation rate: 64% (65%)  
@@ -35,11 +35,13 @@ These **figures are relatively stable and we are quite happy with them**:
 
 but also from the speakers:
 
-<img src="/images/feedback-bas.png" alt="feedback from Bas Westerbaan" width="50%"/><br>
+<img src="/images/feedback-bas.png" alt="feedback from Bas Westerbaan" width="55%"/><br>
 
 We also have been really pleased by the **high level of the invited talks** with :
 - **Bas Westerbaan from Cloudflare** about Merkle Tree Certificates (PQC for WebPKI signed certificates) 
-- **Sylvestre Ledru from Mozilla** about Firefox and Security LLM. <br> 👉️ We have been put in touch with Sylvestre due to the relay done by Yves Alexis Perez aka Corsac, SSTIC cyber french conference team leader. Many thanks to him for this opportunity ❤️ 
+- **Sylvestre Ledru from Mozilla** about Firefox and Security LLM. <br> 
+  - We have been put in touch with Sylvestre due to the relay done by **Yves Alexis Perez** aka Corsac, SSTIC cyber french conference team leader. Many thanks to him for this opportunity. 
+  - **It is the proof that it exists a real link between community run conferences and we have to feed these teams relationships**  ❤️ 
 
 💚 We got a little more speakers from offensive side (VLN research, offsec) than usual.
 
@@ -136,7 +138,9 @@ We also asked during registration if 2026 was their first Pass the SALT edition:
 
 We are very happy to see a consistent percentage of students. After asking some of them during social event, many of them came in group to practice and learn during workshops they attend all along the event. 
 
-Being a free access event providing quality workshops is the main reason of their coming. We are very proud to have been able to allow them to practice and learn from cybersecurity and open source experts 🙏
+Free and quality workshops are the main reason of their coming. 
+
+We are very proud to provide them accessible opportunities to practice and learn from cybersecurity and open source experts 🙏
 
 ## Sponsors
 
@@ -158,7 +162,8 @@ When speakers like Gaëtan, Fabrice and even past speaker like Aaron share that 
 
 - **Gaetan Ferry (Gitguardian, security researcher) :** _"Great social experience. Smooth presentation, very nice org people. Loved it all!"_<br>
 - **Fabrice Mouhartem (Cryptpad/Xwiki, Senior R&D Engineer):** _"As a second time speaker at PTS and used to give talks in different venues, pass the salt is really great. I appreciated the “be in touch” with other speakers of the same track beforehand to prepare the talks accordingly to what other people will say (saving precious minutes about common ground on PQC for instance). :)"_
-- **Aaron Gable (Let's Encrypt tech lead):** _"Yay! I'm so happy that Pass The SALT continues to be amazing, and I'm sure Bas's talk about MTCs was great! Maybe I'll be able to give an implementor's perspective on MTCs next year after Let's Encrypt has rolled out support..."_
+- **Aaron Gable (Let's Encrypt tech lead):**<br>
+<img src="/images/feedback-aaron.jpg" alt="feedback from Aaron Gable" width="50%"/><br>
 
 👉️ **Feedbacks like these really matter, because it is why we work all along the year, as simple as that!** 🙏 #SmallIsBeautiful
 
