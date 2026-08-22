@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/annual-report/</loc>
+    <loc>https://2026.pass-the-salt.org/annual-report/</loc>
   </url><url>
-    <loc>http://localhost:1313/code-of-conduct/</loc>
+    <loc>https://2026.pass-the-salt.org/code-of-conduct/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://2026.pass-the-salt.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/practical/</loc>
+    <loc>https://2026.pass-the-salt.org/practical/</loc>
   </url><url>
-    <loc>http://localhost:1313/speakers/</loc>
+    <loc>https://2026.pass-the-salt.org/speakers/</loc>
   </url>
 </urlset>
