@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Videos 👉️"
-    link: "https://passthesalt.ubicast.tv/channels/#2026"
+    link: "https://videos.pass-the-salt.org/2026/"
 
 ############################# description ############################
 description:
@@ -45,10 +45,11 @@ team:
   image: "images/team.jpg"
   title: "The Team"
   content:
-    "Pass the SALT is brought to you by a small but enthusiast and dedicated team:<br>
-    - **core team:** <a href=https://twitter.com/bloodytangerine>@bloodytangerine</a>, <a href=https://twitter.com/_cryptocorn_>@&#95;cryptocorn&#95;</a>, <a href=https://infosec.exchange/@cbrocas>@cbrocas</a>, <a href=https://twitter.com/doegox>@doegox</a>, <a href=https://twitter.com/follc>@follc</a> and <a href=https://twitter.com/moutane>@moutane</a>.<br>
-    - **on-site volunteers:** <a href=https://twitter.com/acervoise>@acervoise</a>, <a href=https://twitter.com/cdpointpoint>@cdpointpoint</a>, <a href=https://infosec.exchange/@julioloayzam>@julioloayzam</a>, <a href=https://infosec.exchange/@just_nathan>@just_nathan</a> and <a href=https://twitter.com/Sebdraven>@Sebdraven</a>.<br>
-    - **video recording:** we rely this year again on the know-how of our <a href=https://x.com/ubicast_video>Ubicast</a> friends for the recording and streaming of the talks 🙏<br>"
+    "Pass the SALT is brought to you by a small but enthusiast and dedicated team:<br><br>
+    - **core team:** <a href=https://twitter.com/bloodytangerine>@bloodytangerine</a>, <a href=https://twitter.com/_cryptocorn_>@&#95;cryptocorn&#95;</a>, <a href=https://infosec.exchange/@cbrocas>@cbrocas</a>, <a href=https://twitter.com/doegox>@doegox</a>, <a href=https://twitter.com/follc>@follc</a> and <a href=https://twitter.com/moutane>@moutane</a>.<br><br>
+    - **program comitee:** core team + <a href=https://twitter.com/acervoise>@acervoise</a> and <a href=https://twitter.com/Sebdraven>@Sebdraven</a>.<br><br>
+    - **on-site volunteers:** <a href=https://twitter.com/acervoise>@acervoise</a>, <a href=https://twitter.com/cdpointpoint>@cdpointpoint</a>, <a href=https://infosec.exchange/@julioloayzam>@julioloayzam</a>, <a href=https://infosec.exchange/@just_nathan>@just_nathan</a> and <a href=https://twitter.com/Sebdraven>@Sebdraven</a>.<br><br>
+    - **video recording:** we rely this year again on the know-how of our <a href=https://x.com/ubicast_video>Ubicast</a> friends, Frédéric and Charles, for the recording and streaming of the talks 🙏<br>"
 
 ############################# timeline ############################
 timeline:

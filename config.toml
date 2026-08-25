@@ -51,6 +51,10 @@ link = "plugins/slick/slick.min.js"
 # url = "/"
 # weight = 1
 
+[[menu.main]]
+name = "About"
+url = "https://2026.pass-the-salt.org/#description"
+weight = 10
 
 # [[menu.main]]
 # name = "Call for Proposals"
@@ -74,12 +78,12 @@ weight = 20
 
 [[menu.main]]
 name = "Slides"
-url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2026/slides/"
+url = "https://slides.pass-the-salt.org/2026/"
 weight = 31
 
 [[menu.main]]
 name = "Videos"
-url = "https://passthesalt.ubicast.tv/channels/#2026"
+url = "https://videos.pass-the-salt.org/2026/"
 weight = 32
 
 [[menu.main]]
@@ -101,11 +105,6 @@ weight = 50
 name = "CoC"
 url = "/code-of-conduct/"
 weight = 60
-
-[[menu.main]]
-name = "About"
-url = "https://2026.pass-the-salt.org/#description"
-weight = 61
 
 [[menu.main]]
 name = "Archives"
