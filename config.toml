@@ -91,10 +91,10 @@ name = "Practical"
 url = "/practical/"
 weight = 41
 
-# [[menu.main]]
-# name = "Report"
-# url = "/annual-report/"
-# weight = 42
+[[menu.main]]
+name = "Report"
+url = "/annual-report/"
+weight = 42
 
 [[menu.main]]
 name = "Sponsors"
