@@ -6,7 +6,7 @@ banner:
   image: "images/logo-pts23.png"
   button:
     enable: true
-    label: "Videos 👉️"
+    label: "🎥 2026 edition videos"
     link: "https://videos.pass-the-salt.org/2026/"
 
 ############################# description ############################
@@ -42,7 +42,7 @@ description:
 ############################# team ############################
 team:
   enable: true
-  image: "images/team.jpg"
+  image: "images/fullteam800.png"
   title: "The Team"
   content:
     "Pass the SALT is brought to you by a small but enthusiast and dedicated team:<br><br>

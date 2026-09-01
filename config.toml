@@ -71,10 +71,10 @@ weight = 20
 # url = "https://pretix.eu/passthesalt/2026/"
 # weight = 30
 
-# [[menu.main]]
-# name = "Memories"
-# url = "https://archives.pass-the-salt.org/Pass%20the%20SALT/2025/photos/PhotosPassTheSALT2025-by-jlm/"
-# weight = 30
+[[menu.main]]
+name = "Memories"
+url = "https://photos.pass-the-salt.org/s/pts2026"
+weight = 30
 
 [[menu.main]]
 name = "Slides"
