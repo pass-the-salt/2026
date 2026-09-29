@@ -2,7 +2,6 @@
 title: "Practical information"
 layout: "post"
 permalink: /practical/
-published: true
 lang: en
 ref: Practical
 ---
